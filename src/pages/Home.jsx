@@ -17,7 +17,7 @@ const Home = () => {
     <section className="bg-default-gray min-h-screen">
       <Navbar />
       <Navigation />
-      <div className="bg-default-gray w-full  max-w-[83rem] mx-auto xl:flex gap-5   ">
+      <div className="bg-default-gray w-full  max-w-[83rem] mx-auto xl:flex gap-5">
         <div className=" bg-white w-full  max-w-[55.0625rem]  xl:bg-default-gray pt-4 px-4 sm:px-0  xl:pt-0 ">
           <GraphShow />
           <MidNavbar />
@@ -33,7 +33,9 @@ const Home = () => {
           <TrendingCoins className="hidden xl:block xl:mx-0"/>
         </div>
       </div>
+      <div className="overflow-hidden">
       <LastCard />
+      </div>
     </section>
   );
 };

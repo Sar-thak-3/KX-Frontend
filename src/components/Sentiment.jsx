@@ -87,8 +87,6 @@ const Sentiments = () => {
     speed: 500,
     slidesToShow: 1.5,
     slidesToScroll: 1,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
     swipeToSlide: true,
   };
   return (

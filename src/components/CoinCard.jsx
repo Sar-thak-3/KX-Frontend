@@ -43,7 +43,7 @@ const options = {
 
 const CoinCard = () => {
   return (
-    <div style={{height: "200px"}} className="bg-white w-[95%]  xl:w-[17.0625rem] max-w-[17.0625rem] mx-auto  pt-12 pb-16 lg:pt-6 lg:pl-2 lg:pb-10 rounded-2xl xl:mb-24 border-2">
+    <div style={{height: "200px"}} className="bg-white w-[95%]  xl:w-[17.0625rem] max-w-[17.0625rem] mx-auto pt-12 pb-4 lg:pt-6 lg:pl-2 lg:pb-4 rounded-2xl xl:mb-12 border-2">
       <div className="flex">
         <img src={bitcoin} style={{ width: "20px", height: "20px" }} />
         <h3 className="text-l font-bold text-gray-400 leading-5c pl-2 pr-1 lg:py-0">
